@@ -1,0 +1,9 @@
+login : noAuth + body->form-data-> username:user password:Mf2nDNveZI
+
+add(post):	body->form-data: firstName, lastName, ... +
+	1/ Authorization->Bearer Token : "token"
+	2/ Authorization:noAuth + Headers->Authorization: Bearer "token"
+
+update(post):	body->form-data: firstName, lastName, ... +currentUsername
+	1/ Authorization->Bearer Token : "token"
+	2/ Authorization:noAuth + Headers->Authorization: Bearer "token"

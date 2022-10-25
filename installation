@@ -1,0 +1,23 @@
+npm install -g  @quasar/cli
+
+npm init quasar
+
+cd quasar-project
+
+npx quasar dev
+
+To get started:
+
+  cd quasar-project
+  quasar dev # or: yarn quasar dev # or: npx quasar dev
+
+//quasar create first-project
+
+
+!!! component rating 
+
+npm i vue-material-design-icons
+
+
+----------------------------------------------
+npm i auth0-js

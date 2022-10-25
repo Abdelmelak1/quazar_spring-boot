@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20220815</FitNesseVersion>
+  <rootPath>FrontPage</rootPath>
+  <result>
+    <counts>
+      <right>0</right>
+      <wrong>0</wrong>
+      <ignores>0</ignores>
+      <exceptions>12</exceptions>
+    </counts>
+    <date>2022-10-13T16:04:47+02:00</date>
+    <runTimeInMillis>272</runTimeInMillis>
+    <content>&lt;br/&gt;&lt;center&gt;&lt;h1 id="0"&gt;&lt;span class="blue"&gt;&lt;b&gt;Main Fitnesse Testing Page&lt;/b&gt;&lt;/span&gt;&lt;/h1&gt;
+&lt;/center&gt;&lt;hr/&gt;
+&lt;br/&gt;&lt;h3 id="1"&gt;&lt;span class="olive"&gt;&lt;b&gt;Free Delivery Criteria&lt;/b&gt;&lt;/span&gt;&lt;/h3&gt;
+&lt;span class="darkOrange "&gt;Purchase Amount &amp;gt;= INR 3000 &amp;amp; Delivery Distance &amp;lt; 100 KM&lt;/span&gt;&lt;br/&gt;&lt;hr/&gt;
+&lt;br/&gt;&lt;span class="meta"&gt;variable defined: TEST_SYSTEM=slim&lt;/span&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;span class="meta"&gt;classpath: C:\Users\AbdelmelakKALTOUM\OneDrive - TEAMWILL CONSULTING\Bureau\Test\fitnesse first function\out\production\fitnesse first function&lt;/span&gt;&lt;br/&gt;&lt;table&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="4"&gt;&lt;table&gt;&lt;tr class="exception closed"&gt;&lt;td&gt; &lt;span class="error"&gt;Calculator&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class="exception-detail closed-detail"&gt;&lt;td&gt;__EXCEPTION__:java.lang.UnsupportedClassVersionError: Calculator has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method) [rt.jar:1.8.0_20]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760) [rt.jar:1.8.0_20]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142) [rt.jar:1.8.0_20]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:455) [rt.jar:1.8.0_20]
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:73) [rt.jar:1.8.0_20]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:367) [rt.jar:1.8.0_20]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361) [rt.jar:1.8.0_20]
+	at java.security.AccessController.doPrivileged(Native Method) [rt.jar:1.8.0_20]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360) [rt.jar:1.8.0_20]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) [rt.jar:1.8.0_20]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308) [rt.jar:1.8.0_20]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) [rt.jar:1.8.0_20]
+	at java.lang.Class.forName0(Native Method) [rt.jar:1.8.0_20]
+	at java.lang.Class.forName(Class.java:259) [rt.jar:1.8.0_20]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.getClass(SimpleInteraction.java:113) [fitnesse-standalone.jar:20220815]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.handleClassCacheMiss(CachedInteraction.java:73) [fitnesse-standalone.jar:20220815]
+	at fitnesse.slim.fixtureInteraction.CachedInteraction.getClass(CachedInteraction.java:42) [fitnesse-standalone.jar:20220815]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.searchPathsForClass(SimpleInteraction.java:79) [fitnesse-standalone.jar:20220815]
+	at fitnesse.slim.fixtureInteraction.SimpleInteraction.createInstance(SimpleInteraction.java:41) [fitnesse-standalone.jar:20220815]
+	at fitnesse.slim.SlimExecutionContext.create(SlimExecutionContext.java:52) [fitnesse-standalone.jar:20220815]
+	at fitnesse.slim.StatementExecutor.create(StatementExecutor.java:88) [fitnesse-standalone.jar:20220815]
+	at fitnesse.slim.instructions.MakeInstruction.executeInternal(MakeInstruction.java:26) [fitnesse-standalone.jar:20220815]
+	at fitnesse.slim.instructions.Instruction.execute(Instruction.java:29) [fitnesse-standalone.jar:20220815]
+	at fitnesse.slim.ListExecutor$Executive.executeStatement(ListExecutor.java:49) [fitnesse-standalone.jar:20220815]
+	at fitnesse.slim.ListExecutor$Executive.executeStatements(ListExecutor.java:43) [fitnesse-standalone.jar:20220815]
+	at fitnesse.slim.ListExecutor.execute(ListExecutor.java:85) [fitnesse-standalone.jar:20220815]
+	at fitnesse.slim.SlimServer.executeInstructions(SlimServer.java:82) [fitnesse-standalone.jar:20220815]
+	at fitnesse.slim.SlimServer.processOneSetOfInstructions(SlimServer.java:75) [fitnesse-standalone.jar:20220815]
+	at fitnesse.slim.SlimServer.tryProcessInstructions(SlimServer.java:62) [fitnesse-standalone.jar:20220815]
+	at fitnesse.slim.SlimServer.serve(SlimServer.java:47) [fitnesse-standalone.jar:20220815]
+	at fitnesse.slim.SlimService.handle(SlimService.java:169) [fitnesse-standalone.jar:20220815]
+	at fitnesse.slim.SlimService.acceptOne(SlimService.java:177) [fitnesse-standalone.jar:20220815]
+	at fitnesse.slim.SlimService.accept(SlimService.java:139) [fitnesse-standalone.jar:20220815]
+	at fitnesse.slim.SlimService.startWithFactory(SlimService.java:92) [fitnesse-standalone.jar:20220815]
+	at fitnesse.slim.SlimService.main(SlimService.java:57) [fitnesse-standalone.jar:20220815]&lt;/td&lt;/tr&gt;&lt;/table&gt;&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowTitle"&gt;
+		&lt;td colspan="4"&gt;!style_code(Available Items with Price(IMR))&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;Item &lt;span class="error"&gt;The instance decisionTable_0.setStyle_codeAvailableItemsWithPriceIMR. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;first&lt;/td&gt;
+		&lt;td&gt;second&lt;/td&gt;
+		&lt;td&gt;addition?&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;Bulb &lt;span class="error"&gt;The instance decisionTable_0.setStyle_codeAvailableItemsWithPriceIMR. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;35&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;Grinder &lt;span class="error"&gt;The instance decisionTable_0.setStyle_codeAvailableItemsWithPriceIMR. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;2000&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;Smartphone &lt;span class="error"&gt;The instance decisionTable_0.setStyle_codeAvailableItemsWithPriceIMR. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;5000&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;Headset &lt;span class="error"&gt;The instance decisionTable_0.setStyle_codeAvailableItemsWithPriceIMR. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;250&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;Speaker &lt;span class="error"&gt;The instance decisionTable_0.setStyle_codeAvailableItemsWithPriceIMR. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;700&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;Charger &lt;span class="error"&gt;The instance decisionTable_0.setStyle_codeAvailableItemsWithPriceIMR. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;150&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;Keyboard &lt;span class="error"&gt;The instance decisionTable_0.setStyle_codeAvailableItemsWithPriceIMR. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;300&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;Fan &lt;span class="error"&gt;The instance decisionTable_0.setStyle_codeAvailableItemsWithPriceIMR. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;1500&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor0"&gt;
+		&lt;td&gt;AC &lt;span class="error"&gt;The instance decisionTable_0.setStyle_codeAvailableItemsWithPriceIMR. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;8000&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr class="slimRowColor1"&gt;
+		&lt;td&gt;Fitband &lt;span class="error"&gt;The instance decisionTable_0.setStyle_codeAvailableItemsWithPriceIMR. does not exist&lt;/span&gt;&lt;/td&gt;
+		&lt;td&gt;100&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+		&lt;td&gt;1&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+&gt;NewPageFunction&lt;a title="create page" href="FrontPage.NewPageFunction?edit&amp;amp;nonExistent=true"&gt;[?]&lt;/a&gt;&lt;br/&gt;</content>
+    <relativePageName>FrontPage</relativePageName>
+    <instructions>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_0', instruction='make', instanceName='decisionTable_0', className='Calculator', args=[]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_0</instructionId>
+          <type>ConstructionExpectation</type>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_4', instruction='call', instanceName='decisionTable_0', methodName='setStyle_codeAvailableItemsWithPriceIMR', args=[Item]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_4</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_0.setStyle_codeAvailableItemsWithPriceIMR. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_7', instruction='call', instanceName='decisionTable_0', methodName='setStyle_codeAvailableItemsWithPriceIMR', args=[Bulb]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_7</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_0.setStyle_codeAvailableItemsWithPriceIMR. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_10', instruction='call', instanceName='decisionTable_0', methodName='setStyle_codeAvailableItemsWithPriceIMR', args=[Grinder]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_10</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_0.setStyle_codeAvailableItemsWithPriceIMR. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_13', instruction='call', instanceName='decisionTable_0', methodName='setStyle_codeAvailableItemsWithPriceIMR', args=[Smartphone]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_13</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_0.setStyle_codeAvailableItemsWithPriceIMR. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_16', instruction='call', instanceName='decisionTable_0', methodName='setStyle_codeAvailableItemsWithPriceIMR', args=[Headset]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_16</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_0.setStyle_codeAvailableItemsWithPriceIMR. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_19', instruction='call', instanceName='decisionTable_0', methodName='setStyle_codeAvailableItemsWithPriceIMR', args=[Speaker]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_19</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_0.setStyle_codeAvailableItemsWithPriceIMR. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_22', instruction='call', instanceName='decisionTable_0', methodName='setStyle_codeAvailableItemsWithPriceIMR', args=[Charger]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_22</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_0.setStyle_codeAvailableItemsWithPriceIMR. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_25', instruction='call', instanceName='decisionTable_0', methodName='setStyle_codeAvailableItemsWithPriceIMR', args=[Keyboard]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_25</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_0.setStyle_codeAvailableItemsWithPriceIMR. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_28', instruction='call', instanceName='decisionTable_0', methodName='setStyle_codeAvailableItemsWithPriceIMR', args=[Fan]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_28</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_0.setStyle_codeAvailableItemsWithPriceIMR. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_31', instruction='call', instanceName='decisionTable_0', methodName='setStyle_codeAvailableItemsWithPriceIMR', args=[AC]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_31</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_0.setStyle_codeAvailableItemsWithPriceIMR. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+      <instructionResult>
+        <instruction>{id='decisionTable_0_34', instruction='call', instanceName='decisionTable_0', methodName='setStyle_codeAvailableItemsWithPriceIMR', args=[Fitband]}</instruction>
+        <slimResult></slimResult>
+        <expectation>
+          <status>error</status>
+          <instructionId>decisionTable_0_34</instructionId>
+          <type>VoidReturnExpectation</type>
+          <evaluationMessage>The instance decisionTable_0.setStyle_codeAvailableItemsWithPriceIMR. does not exist</evaluationMessage>
+        </expectation>
+      </instructionResult>
+    </instructions>
+  </result>
+  <executionLog>
+    <testSystem>slim:fitnesse.slim.SlimService</testSystem>
+    <command>C:\dev\dev-tools\apps\jdk1.8.0_20\bin\java -cp "C:\Users\AbdelmelakKALTOUM\OneDrive - TEAMWILL CONSULTING\Bureau\Test\fitnesse first function\out\production\fitnesse first function;C:\Users\AbdelmelakKALTOUM\OneDrive - TEAMWILL CONSULTING\Bureau\FITNESSE tutorial\fitnesse-standalone.jar" fitnesse.slim.SlimService 1</command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>544</totalRunTimeInMillis>
+</testResults>
+

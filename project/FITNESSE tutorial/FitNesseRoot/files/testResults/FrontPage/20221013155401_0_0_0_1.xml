@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<testResults>
+  <FitNesseVersion>v20220815</FitNesseVersion>
+  <rootPath>FrontPage</rootPath>
+  <executionLog>
+    <testSystem></testSystem>
+    <command></command>
+    <exitCode>0</exitCode>
+    <stdOut></stdOut>
+    <stdErr></stdErr>
+    <exception>Cannot run program ""C:\Users\AbdelmelakKALTOUM\OneDrive - TEAMWILL CONSULTING\Bureau\Formation Spring boot\zulu8.64.0.19-ca-jdk8.0.345-win_x64\zulu8.64.0.19-ca-jdk8.0.345-win_x64\bin\bin\java"": CreateProcess error=2, Le fichier spécifié est introuvable</exception>
+  </executionLog>
+  <finalCounts>
+    <right>0</right>
+    <wrong>0</wrong>
+    <ignores>0</ignores>
+    <exceptions>1</exceptions>
+  </finalCounts>
+  <totalRunTimeInMillis>3</totalRunTimeInMillis>
+</testResults>
+

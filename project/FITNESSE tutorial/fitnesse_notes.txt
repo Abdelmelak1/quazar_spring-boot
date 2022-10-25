@@ -1,0 +1,31 @@
+
+java -jar fitnesse-standalone.jar -p 8686
+
+
+
+!c !1 !style_blue['''Main Fitnesse Testing Page''']
+----
+!3 !style_olive['''Free Delivery Criteria''']
+!style_darkOrange [Purchase Amount >= INR 3000 & Delivery Distance < 100 KM]
+----
+!define TEST_SYSTEM {slim}
+!path C:\Users\AbdelmelakKALTOUM\OneDrive - TEAMWILL CONSULTING\Bureau\project\supportportal\target\classes
+
+|import|
+|fitnesse|
+
+!|Calculator;                                    |
+|first|second|addition?|minus?|multiply?|divide?|
+|4    |2     |6        |2     |8        |2.0    |
+|10   |5     |15       |5     |50       |2.0    |
+|10   |10    |20       |0     |100      |1.0    |
+>NewPageFunction                     
+
+
+[[Calculation][http://localhost:8181/FrontPage.Calculator?test]] : link(html: <a href="http://localhost:8181/FrontPage.Calculator?test">Calculation</a>  
+the same as ====> [[Calculation][FrontPage.Calculator?test]]
+
+comments : !-comment-!
+[[Search below !-FrontPage-! for <description>][FrontPage?whereUsed]]
+
+     

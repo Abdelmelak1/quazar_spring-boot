@@ -1,0 +1,33 @@
+!c !1 !style_blue['''Main Fitnesse Testing Page''']
+----
+!3 !style_olive['''Free Delivery Criteria''']
+!style_darkOrange [Purchase Amount >= INR 3000 & Delivery Distance < 100 KM]
+----
+!define TEST_SYSTEM {slim}
+!path C:\Users\AbdelmelakKALTOUM\OneDrive - TEAMWILL CONSULTING\Bureau\demo\target\classes
+
+|import|
+|fitnesse.other|
+
+
+
+
+!|Calculator3                                   |
+|first|second|addition?|minus?|multiply?|divide?|
+|4    |2     |6        |2     |8        |2.0    |
+|10   |5     |15       |5     |50       |2.0    |
+|10   |10    |20       |0     |100      |1.0    |
+
+|import|
+|com.example.demo|
+
+
+
+
+!|Calculator1                                    |
+|first|second|addition?|minus?|multiply?|divide?|
+|4    |2     |6        |2     |8        |2.0    |
+|10   |5     |15       |5     |50       |2.0    |
+|10   |10    |20       |0     |100      |1.0    |
+
+>NewPageFunction                            
